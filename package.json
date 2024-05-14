@@ -1,4 +1,7 @@
 {
+  "homepage": "https://tishaberchha.github.io/StyleSail",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -b master -d build",
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
