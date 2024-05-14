@@ -1,0 +1,10 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: black; */
+    margin-top: 150px;
+    margin-left: 50px;
+    outline: none;
+}
+

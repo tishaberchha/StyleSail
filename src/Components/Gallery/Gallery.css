@@ -1,0 +1,82 @@
+
+
+.img-container {
+    width: 90%;
+    min-height: 100vh;
+    position: relative;
+    margin: 100px auto;
+}
+
+.img-container h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Marcellus", serif;
+}
+
+.img-container span {
+    font-family: "Rubik Scribble", system-ui;
+}
+
+.img-container .media-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    gap: 15px;
+    margin: 20px 25px;
+}
+
+.img-container .media-container .media {
+    height: 450px;
+    width: 100%;
+    border: 5px solid white;
+    box-shadow: 0 15px 15pxrgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.img-container .media-container .media img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s linear;
+}
+
+.img-container .media-container .media img:hover {
+    transform: scale(1.1);
+}
+
+
+.card-content {
+    text-align: center;
+    position: relative;
+    top: -1.8rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+/* .card-content p {
+    font-family: "Marcellus", serif;
+    font-weight: bold;
+} */
+.card-content img {
+    font-family: "Marcellus", serif;
+    font-weight: bold;
+}
+
+.media:hover .card-content {
+    opacity: 1;
+    transform: translateY(-30px);
+    background: white;
+    color: #99627A;
+    transform: translateY(-30px);
+    font-size: 20px;
+}
+
+.heart {
+    margin-top: -458px;
+    font-size: 25px;
+    margin-left: 280px;
+    color: red;
+}
